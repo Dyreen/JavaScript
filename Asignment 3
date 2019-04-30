@@ -1,0 +1,28 @@
+1.  function printFruits (fruits_list) {
+
+                         fruits_list = ['apple','banana','mango','grapes']
+}
+
+//undefined
+
+
+2.var fruits_list= ['apple','banana','mango','grapes'];
+
+                         //undefined
+
+
+                         console.log(fruits_list);                        
+
+
+                           ["apple", "banana", "mango", "grapes"]                  
+                                                                                        
+                               0: "apple"                                                                                         
+                               1: "banana"                                               
+                               2: "mango"
+                               3: "grapes"
+                               
+                               
+                              fruits_list [0]; "apple"
+                              fruits_list [1]; "banana"
+                               fruits_list [2]; "mango"
+                               fruits_list [3]; "grapes"  
