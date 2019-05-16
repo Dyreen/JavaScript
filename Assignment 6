@@ -1,29 +1,20 @@
-var kiosk={
 
-kiwi:'kiwi',
- 
-   melons:'melons',
- 
-   getFruits () {
+(4) ["grape", "banana", "orange", "watermelon"]
+0: "grape"
+1: "banana"
+2: "orange"
+3: "watermelon"
+length: 4
+_proto__: Array(0)
 
-return this.kiwi +' ' +this.melons;
- 
-   },
-   
- setFruit (pears) {
+fruits [0]
 
-return this.kiwi +' ' +this.melons +' ' +'pears';
-  
-  }
+"grape"
 
-}
+fruits [1]
 
-undefined
+"banana"
 
-kiosk.getFruits ()
+fruits[2]
 
-"kiwi melons"
-
-kiosk.setFruit()
-
-"kiwi melons pears"
+"orange"
