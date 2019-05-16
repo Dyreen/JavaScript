@@ -1,0 +1,34 @@
+let user = {name:'Jane Doe', years:21};
+let {name:name, years:age, isStudent:isStudent} = user;
+console.log(name,age,false);
+
+	//"Jane Doe"
+          21
+          false
+
+
+
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+ask(
+"Do you agree?",
+  
+function() { alert("You agreed."); },
+  
+function() { alert("You canceled the execution."); }
+);
+
+let ask = (question,yes,no) => {
+  if (confirm(question))yes()
+  else no();
+} 
+
+  ask(
+  "Do you agree?",
+  () => {alert("You agreed"); },
+  () => {alert("You have cancelled the execution"); }
+  );
+
+	//alerts the user 
