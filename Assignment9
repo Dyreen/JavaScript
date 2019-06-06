@@ -1,0 +1,21 @@
+var body = document.body
+body.style.backgroundColor = 'silver'
+
+var h1 = document.getElementById('title')
+ h1.style.color ='green'
+ 
+ var h3 =document.getElementById("h3");
+nat.innerHTML=nat.innerHTML.toUpperCase()
+
+var h3=document.getElementById("case");
+h3.innerHTML=tasha.innerHTML.toUpperCase()
+
+var li = document.createElement("li");
+ li.innerHTML=("pineapple")
+ var fru=document.createElement("fruList");
+fruList.appendChild(li);
+
+var li = document.createElement("li");
+li.innerHTML=("potatoes")
+var veg= document.createElement("vegList");
+vegList.appendChild(li);
